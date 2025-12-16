@@ -1,65 +1,73 @@
-# Precifica Fácil
+# Welcome to your Lovable project
 
-Aplicativo para controle de custos e lucros, desenvolvido para ajudar empreendedores a calcular preços de forma eficiente.
+## Project info
 
-## Funcionalidades
+**URL**: https://lovable.dev/projects/5bebcf5c-a80b-40f0-aa6c-27ae242b4667
 
-- Login e registro de usuários
-- Cadastro de produtos e serviços
-- Cálculo automático de preços
-- Gestão de custos e lucros
-- Relatórios detalhados
-- Exportação de dados
+## How can I edit this code?
 
-## Requisitos
+There are several ways of editing your application.
 
-- Node.js 14 ou superior
-- React Native CLI
-- Android Studio (para desenvolvimento Android)
-- Xcode (para desenvolvimento iOS)
+**Use Lovable**
 
-## Instalação
+Simply visit the [Lovable Project](https://lovable.dev/projects/5bebcf5c-a80b-40f0-aa6c-27ae242b4667) and start prompting.
 
-1. Clone o repositório:
-```bash
-git clone https://github.com/seu-usuario/precifica-facil.git
-cd precifica-facil
+Changes made via Lovable will be committed automatically to this repo.
+
+**Use your preferred IDE**
+
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+
+Follow these steps:
+
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
+
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
+
+# Step 3: Install the necessary dependencies.
+npm i
+
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
 ```
 
-2. Instale as dependências:
-```bash
-npm install
-```
+**Edit a file directly in GitHub**
 
-3. Para Android:
-```bash
-npm run android
-```
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
-4. Para iOS:
-```bash
-cd ios
-pod install
-cd ..
-npm run ios
-```
+**Use GitHub Codespaces**
 
-## Estrutura do Projeto
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-```
-src/
-  ├── components/     # Componentes reutilizáveis
-  ├── screens/        # Telas do aplicativo
-  ├── navigation/     # Configuração de navegação
-  ├── services/       # Serviços e APIs
-  ├── utils/          # Funções utilitárias
-  └── assets/         # Imagens e recursos
-```
+## What technologies are used for this project?
 
-## Tecnologias Utilizadas
+This project is built with:
 
-- React Native
-- React Navigation
-- React Native Paper
-- AsyncStorage
-- React Native Chart Kit 
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
+
+## How can I deploy this project?
+
+Simply open [Lovable](https://lovable.dev/projects/5bebcf5c-a80b-40f0-aa6c-27ae242b4667) and click on Share -> Publish.
+
+## Can I connect a custom domain to my Lovable project?
+
+Yes it is!
+
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
